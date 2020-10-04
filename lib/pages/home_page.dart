@@ -7,18 +7,17 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  List _imageUrls = [
+    "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1831347686,445775906&fm=26&gp=0.jpg",
+    "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1831347686,445775906&fm=26&gp=0.jpg",
+    "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1831347686,445775906&fm=26&gp=0.jpg",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
        body: Center(
           child: Container(
-            child: Column(
-              children: [
-                Container(
-                  child: Swiper.,
-                )
-              ],
-            ),
+            child: Text("首页",),
           ),
        ),
     );
